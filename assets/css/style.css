@@ -23,3 +23,19 @@ body {
     background: #323437;
     padding: 40px 60px;
 }
+
+/* Style for the main heading */
+h1 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Style the score area */
+.score {
+    color: #fff;
+    font-size: 2em;
+    margin: 10px 0;
+    font-weight: bold;
+}
