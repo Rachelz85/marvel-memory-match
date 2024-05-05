@@ -87,3 +87,41 @@ h1 {
     color: #fff;
     background: #323437;
 }
+
+/* Responsive media query */
+/* Media queries for screens with max-width of 767px */
+@media (max-width: 767px) {
+    .container {
+        width: 60%; /* Adjust the width to give a little more space */
+        padding: 10px; /* Reduce padding to save space */
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .score {
+        font-size: 1.1em;
+    }
+
+    .gameboard {
+        gap: 5px; /* Reduce the gap between cards for tighter layout */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 25%; /* Relative sizing to maintain number of cards per row */
+        height: auto;
+        aspect-ratio: 1 / 1; /* Ensure cards are always square regardless of width */
+        margin: 0;
+    }
+
+    .reset {
+        margin-top: 25%;
+        margin-bottom: 15px;
+        padding: 8px 12px;
+        font-size: 0.8em;
+    }
+}
