@@ -32,10 +32,21 @@ h1 {
     letter-spacing: 0.1em;
 }
 
-/* Style the score area */
+/* Style for the score area */
 .score {
     color: #fff;
     font-size: 2em;
     margin: 10px 0;
     font-weight: bold;
+}
+
+/* Style for the game area where cards are desplayed */
+.gameboard {
+    width: 430px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
 }
