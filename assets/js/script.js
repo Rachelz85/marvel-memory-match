@@ -16,3 +16,16 @@ const images = [
     { src: 'assets/images/wolverine.jpg', name: 'wolverine', alt: 'Wolverine' },
     { src: 'assets/images/wolverine.jpg', name: 'wolverine', alt: 'Wolverine' }
 ]
+
+// Shuffles the images array  to ensure a random gameboard each time
+var shuffleImages = images.sort(() => (Math.random() > .5) ? 1 : -1);
+
+// Iterates over the shuffled images array to create each memory game card
+for (let i = 0; i < images.length; i++) {
+    let card = document.createElement('div');
+    card.className = 'card'
+    let image = document.createElement('img');
+    image.src = shuffleImages[i].src;
+    card.appendChild(image);
+    document.querySelector('.gameboard').appendChild(card);
+}
