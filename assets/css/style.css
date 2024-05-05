@@ -132,20 +132,27 @@ h1 {
     object-fit: cover;
 }
 
+/* Styles for cards that are flipped */
+.cardFlip img {
+    display: block; /* Show image when card is flipped */
+}
+
  /* Adds on overlay to each memory card for the "face-down" effect */
 card::after {
     content: '';
     position: absolute;
     inset: 0;
-    background-color: black;
+    background: url('assets/images/back.jpg');
     opacity: 0.85%;
     background-size: cover;
     transition: 0.25s;
     transform: rotate(0deg);
+    backface-visibility: hidden;
 }
 
 .cardFlip::after {
     content: none;
+    
 }
 
     .reset {

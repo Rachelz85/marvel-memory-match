@@ -28,7 +28,7 @@ for (let i = 0; i < images.length; i++) {
     image.src = shuffleImages[i].src;
     card.appendChild(image);
 
-    // Adds a click event listener to the card to handle the flipping and matching logic
+  // Adds a click event listener to the card to handle the flipping and matching logic
 card.onclick = function() {
     this.classList.add('cardFlip'); // Flip the card
     // Delay checking for a match
@@ -36,6 +36,10 @@ card.onclick = function() {
         checkForMatch();
     }, 500);
 };
+
+// Adds the 'cardFlip' class to the card, which likely triggers a visual flip effect
+    this.classList.add('cardFlip');
+
 
     document.querySelector('.gameboard').appendChild(card);
 }
