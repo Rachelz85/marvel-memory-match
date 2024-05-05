@@ -50,3 +50,21 @@ h1 {
     transform-style: preserve-3d;
     perspective: 500px;
 }
+
+/* Style for the reset button */
+.reset {
+    padding: 15px 20px;
+    border: none;
+    color: #323437;
+    background: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.reset:focus {
+    color: #fff;
+    background: #323437;
+}
