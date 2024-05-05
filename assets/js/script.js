@@ -27,5 +27,15 @@ for (let i = 0; i < images.length; i++) {
     let image = document.createElement('img');
     image.src = shuffleImages[i].src;
     card.appendChild(image);
+
+    // Adds a click event listener to the card to handle the flipping and matching logic
+card.onclick = function() {
+    this.classList.add('cardFlip'); // Flip the card
+    // Delay checking for a match
+    setTimeout(function() {
+        checkForMatch();
+    }, 500);
+};
+
     document.querySelector('.gameboard').appendChild(card);
 }

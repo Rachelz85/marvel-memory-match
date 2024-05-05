@@ -111,12 +111,42 @@ h1 {
         align-items: center;
     }
 
-    .card {
-        width: 25%; /* Relative sizing to maintain number of cards per row */
-        height: auto;
-        aspect-ratio: 1 / 1; /* Ensure cards are always square regardless of width */
-        margin: 0;
-    }
+    /* Style for each memory card */
+.card {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+/* Style for the image inside a memory card */
+.card img {
+    width: 100%;
+    height: 100%;
+    display: none; /* Initially hide images */
+    object-fit: cover;
+}
+
+ /* Adds on overlay to each memory card for the "face-down" effect */
+card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 0.85%;
+    background-size: cover;
+    transition: 0.25s;
+    transform: rotate(0deg);
+}
+
+.cardFlip::after {
+    content: none;
+}
 
     .reset {
         margin-top: 25%;
