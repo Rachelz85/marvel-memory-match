@@ -83,7 +83,7 @@ h1 {
     content: '';
     position: absolute;
     inset: 0;
-    background: url(/assets/images/cap.jpg);
+    background-color: #282626;
     background-size: cover; 
     transition: 0.25s;
     transform: rotateY(0deg);
