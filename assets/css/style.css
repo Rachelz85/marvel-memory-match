@@ -117,16 +117,17 @@ h1 {
 /* Media queries for screens with max-width of 767px */
 @media (max-width: 767px) {
     .container {
-        width: 60%; /* Adjust the width to give a little more space */
-        padding: 10px; /* Reduce padding to save space */
+        width: 100%; /* Adjust the width to give a little more space */
+        padding: 5px; /* Reduce padding to save space */
     }
 
     h1 {
+        margin-top: 15px;
         font-size: 1.1em;
     }
 
     .score {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .gameboard {
@@ -137,14 +138,14 @@ h1 {
     }
 
     .card {
-        width: 25%; /* Relative sizing to maintain number of cards per row */
+        width: 20%; /* Relative sizing to maintain number of cards per row */
         height: auto;
         aspect-ratio: 1 / 1; /* Ensure cards are always square regardless of width */
         margin: 0;
     }
 
     .reset {
-        margin-top: 25%;
+        margin-top: 5px;
         margin-bottom: 15px;
         padding: 8px 12px;
         font-size: 0.8em;
