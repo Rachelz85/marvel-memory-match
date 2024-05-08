@@ -112,7 +112,7 @@ The game was deployed using GitHub Pages by following these steps:
 
 ## Credits and Resources
 
-- **Code** The code writing and game functions based and adapted from [FreeCodeCamp](https://www.youtube.com/@freecodecamp/videos)
+- **Code** The code writing and game functions based and adapted from [FreeCodeCamp](https://www.youtube.com/@freecodecamp) and [Coding Artist](https://www.youtube.com/@CodingArtist)
 
 - **Favicon** Created using favicon.io based on game graphics. [Favicon](https://favicon.io/)
 
