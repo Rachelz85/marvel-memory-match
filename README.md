@@ -2,7 +2,7 @@
 
 Visit the live website [here.](https://rachelz85.github.io/marvel-memory-match/)
 
-Marvel Memory Match is an engaging memory card game designed for players to match Marvel superhero images. Players flip cards to reveal heroes, aiming to locate pairs and increase their score with each successful match. Ÿ
+Marvel Memory Match is an engaging memory card game designed for players to match Marvel superhero images. Players flip cards to reveal heroes, aiming to locate pairs and increase their score with each successful match. 
 
 ![Am I responsive Screenshot](assets/images/responsive.png)
 
@@ -17,7 +17,7 @@ Marvel Memory Match is an engaging memory card game designed for players to matc
 
 ### User Stories
 - As a player, I want the game interface to be easy to navigate, allowing me to start playing immediately without complications.
-- As a player, I want to see visual effects when I make a match, so I know immediately if I have selected the correct pair.
+- As a player, I want to have an indicator when I make a match, so I know immediately if I have selected the correct pair.
 - As a player, I want to be able to restart the game at any time if I feel like starting over.
 - As a player, I want the game to be challenging but fair, with a random layout for each new game session.
 
@@ -30,8 +30,8 @@ Marvel Memory Match is an engaging memory card game designed for players to matc
 - **Gitpod** -  To write, edit, commit and push my code to Github I used gitpod as the main IDE.
 - **GitHub** - To host the repository and deploy the game using GitHub Pages.
 - **Google Fonts** - To enhance typography.
-- **Favicon.io** - To create favicon for my website.
-- **Photoshop** - For editing and optimizing game images.
+- **Favicon.io** - To create a favicon for my website.
+- **Pixlr.com** - For editing and optimizing game images.
 - **Am I Responsive?** - To test the responsiveness of the website.
 - **W3C Markup Validation Service** - To validate HTML code.
 - **W3C CSS Validation Service** - To validate CSS code.
@@ -49,8 +49,8 @@ Marvel Memory Match is an engaging memory card game designed for players to matc
 
 The game was tested on:
 
-- **Devices**: Iphone 15, Iphone SE, Ipad Pro, Samsung Galaxi S9+, Macbook Air 13, 24" widescreen monitor, 
-- **Browser**: Tested on Chrome, Firefox, and Safari ensure consistent behavior and performance.
+- **Devices**: Iphone 15, Iphone SE, Ipad Pro, Samsung Galaxy S9+, Macbook Air 13, 24" widescreen monitor, 
+- **Browser**: Tested on Chrome, Firefox, and Safari to ensure consistent behavior and performance.
 - **Functionality**: Testing: Each interactive element (card flip, reset button) was tested to confirm it works as expected.
 
 ### Functionality Testing
